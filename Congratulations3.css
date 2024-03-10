@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family:r;
+    src: url(r.ttf);
+  }
+
+  @font-face {
+    font-family:b;
+    src: url(b.ttf);
+  }
+
+.body {
+    background-color: hwb(328 4% 20% / 0.75);
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    font-family: r;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.three {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.four {
+    margin-top: 20px;
+    text-align: center;
+}
+
+canvas {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+input {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height:40px;
+    padding: 0px 10px;
+    text-align: right;
+    background: #fff;
+    border: 2px solid #06283D;
+    color: white;
+    font-size: 30px;
+    font-family: b;
+}
+
+#download-btn {
+    background-color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: #cc0a72;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: b;
+
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer h1 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+img {
+    width: 110px;
+    margin-right: 10px;
+}
+
+i {
+    color: #fff;
+    margin-top: 5px;
+    padding: 0px 20px;
+    font-size: 36px;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    span {
+        color: #06283D;
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    span {
+        color: #06283D;
+        font-size: 35px;
+    }
+
+    canvas {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        width: 95%;
+    }
+
+    footer {
+        margin-top: 60px;
+        text-align: center;
+    }
+    
+    footer h1 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+    
+    img {
+        width: 90px;
+        margin-right: 10px;
+    }
+    
+    i {
+        color: #fff;
+        margin-top: 5px;
+        padding: 0px 20px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .container {
+        color: red;
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    
+    span {
+        color: #06283D;
+        font-size: 23px;
+    }
+
+    input {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: none;
+        border-radius: 10px;
+        width: 300px;
+        height:40px;
+        padding: 0px 10px;
+        text-align: right;
+        background: #fff;
+        border: 2px solid #06283D;
+        color: white;
+        font-size: 30px;
+        font-family: b;
+    }
+    
+
+    canvas {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        width: 95%;
+    }
+
+    #download-btn {
+        background-color: #fff;
+        text-decoration: none;
+        padding: 3px 10px;
+        font-size: 25px;
+        border-radius: 10px;
+        color: #cc0a72;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        font-family: b;
+
+    }
+
+    footer {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    footer h1 {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+    
+    img {
+        width: 85px;
+        margin-right: 10px;
+    }
+    
+    i {
+        color: #fff;
+        margin-top: 5px;
+        padding: 0px 20px;
+        font-size: 25px;
+    }
+}
+
+
+
+@media (min-width: 350px) and (max-width: 400px) {
+    .container {
+        color: red;
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+    }
+    
+    span {
+        color: #06283D;
+        font-size: 18px;
+    }
+
+    input {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: none;
+        border-radius: 10px;
+        width: 300px;
+        height:40px;
+        padding: 0px 10px;
+        text-align: right;
+        background: #fff;
+        border: 2px solid #06283D;
+        color: white;
+        font-size: 30px;
+        font-family: b;
+    }
+    
+
+    canvas {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 20px;
+        width: 95%;
+    }
+
+    #download-btn {
+        background-color: #fff;
+        text-decoration: none;
+        padding: 3px 10px;
+        font-size: 20px;
+        border-radius: 10px;
+        color: #cc0a72;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        font-family: b;
+    }
+
+    footer {
+        margin-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    footer h2 {
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        font-family: r;
+    }
+    
+    img {
+        width: 75px;
+        margin-right: 10px;
+    }
+    
+    i {
+        color: #fff;
+        margin-top: 5px;
+        padding: 0px 20px;
+        font-size: 23px;
+    }
+}
