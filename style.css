@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: b;
+}
+
+@font-face {
+    font-family:l;
+    src: url(COMM\ -\ Lyon\ Arabic\ Text\ RegularNo2.otf);
+  }
+
+  @font-face {
+    font-family:r;
+    src: url(COMM\ -\ Lyon\ Arabic\ Text\ Regular.otf);
+  }
+
+  @font-face {
+    font-family:b;
+    src: url(COMM\ -\ Lyon\ Arabic\ Text\ Semibold.otf);
+  }
+
+  @font-face {
+    font-family:b;
+    src: url(COMM\ -\ Lyon\ Arabic\ Text\ Bold.otf);
+  }
+
+  @font-face {
+    font-family:bb;
+    src: url(/COMM\ -\ Lyon\ Arabic\ Text\ Black.otf);
+  }
+
+.body {
+    background-image: url(BG1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.temp {
+ text-align: center;
+
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgs img {
+    width: 65%;
+    margin-bottom: 25px;
+    border-radius: 5vw;
+    border: 1vw solid white;
+}
+
+.text {
+    padding: 75px 0px 15px;
+     color: #fff;
+    text-align: center;
+}
+
+.text h3 {
+    font-size: 7vw;
+}
+
+.container {
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+span {
+    color: #FFF;
+    font-size: 60px;
+}
+
+.multiText {
+    color: #FFCC33;
+    text-transform: capitalize;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.three {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.four {
+    margin-top: 50px;
+    text-align: center;
+}
+
+canvas {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+input {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    padding: 0px 10px;
+    text-align: right;
+    background: linear-gradient(145deg, rgba(19,99,223,1) 0%, rgba(71,181,255,1) 100%);
+    border: 2px solid #06283D;
+    color: white;
+    font-size: 30px;
+}
+
+#download-btn {
+    background-color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: #1363DF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer h1 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+
+i {
+    color: #fff;
+    margin-top: 5px;
+    padding: 0px 20px;
+    font-size: 36px;
+}
+
+
+
+
+
+
